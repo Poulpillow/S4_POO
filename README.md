@@ -3,6 +3,8 @@
 ## 2022/02/09
 
 ### Done (reading)
+
+#### Lessons 
 - Introduction
 - [Level 1] Install a compiler
 - [Level 1] Use an IDE
@@ -16,3 +18,14 @@
 
 
 ## 2022/02/16
+
+### Done
+
+#### Assignment
+- Introduction
+- Setting up a project
+
+### First version
+
+#### Assignment
+- Guess the number
