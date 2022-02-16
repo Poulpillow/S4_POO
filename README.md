@@ -25,6 +25,11 @@
 - Introduction
 - Setting up a project
 
+### Done (reading)
+
+#### Assigment
+- [Level 2] Make it work, then make it good
+
 ### First version
 
 #### Assignment
