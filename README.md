@@ -1,36 +1,70 @@
-# Object-Oriented Programming : Exercises
+# **Object-Oriented Programming : Exercises**
 
-## 2022/02/09
+## **Table of Contents**
 
-### Done (reading)
+1. [Key](#key)
+2. [Lessons](#lessons)
+3. [Asignments](#asignments)
 
-#### Lessons 
-- Introduction
-- [Level 1] Install a compiler
-- [Level 1] Use an IDE
-- [Level 1] Use Git
-- [Level 1] Use a debugger
-- [Level 1] Use a formatting tool
-- [Level 1] Use static analysers
-- [Level 1] Naming
-- [Level 1] Stack VS Heap
-- [Level 1] Consistency in style
+---
 
+## **Key**
 
-## 2022/02/16
+|📖|Lessons|
+|--|-------|
+|📕|Unread|
+|📗|Read|
 
-### Done
+|⚪|Asignment|
+|--|---------|
+|🔴|Undone|
+|🟠|In progress|
+|🟡|First Version|
+|🟢|Done|
 
-#### Assignment
-- Introduction
-- Setting up a project
+---
 
-### Done (reading)
+## **Lessons**
 
-#### Assigment
-- [Level 2] Make it work, then make it good
+### Level 0
 
-### First version
+- 📗 Introduction
 
-#### Assignment
-- Guess the number
+### Level 1
+
+- 📗 Install a compiler
+- 📗 Use an IDE
+- 📗 Use Git
+- 📗 Use a debugger
+- 📗 Use a formatting tool
+- 📗 Use static analysers
+- 📗 Naming
+- 📗 Stack vs Heap
+- 📗 Consistency in style
+
+### Level 2
+
+- 📗 Make it work, then make it good
+- 📕 Prefer free functions
+- 📕 Design cohesive classes
+- 📕 Use structs to group data
+- 📕 Write small functions
+- 📕 DRY: Don't repeat yourself
+- 📕 Enums
+- 📕 Split problems in small pieces
+- 📕 Composition over Inheritance
+
+---
+
+## **Asignments**
+
+- 🟢 Introduction
+- 🟢 Setting up a project
+- 🟡 Guess the number
+- 🔴 Hangman
+- 🔴 Adding a menu
+- 🔴 Noughts and Crosses
+- 🔴 Connect 4
+- 🔴 Adding tests
+- 🔴 An AI for Hangman
+- 🔴 Going further
