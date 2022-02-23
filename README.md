@@ -45,8 +45,8 @@
 ### Level 2
 
 - 📗 Make it work, then make it good
-- 📕 Prefer free functions
-- 📕 Design cohesive classes
+- 📗 Prefer free functions
+- 📗 Design cohesive classes
 - 📕 Use structs to group data
 - 📕 Write small functions
 - 📕 DRY: Don't repeat yourself
