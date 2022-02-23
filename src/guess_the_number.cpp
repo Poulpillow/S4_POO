@@ -1,6 +1,6 @@
 #include "guess_the_number.hpp"
 
-int pick_random_number()
+int random_number()
 {
     std::random_device                 rd;
     std::mt19937                       mt(rd());
@@ -8,23 +8,25 @@ int pick_random_number()
     return dist(mt);
 }
 
-void guess_the_number()
+void play_guess_the_number()
 {
-    int n = pick_random_number();
-    int i;
-    int index = 1;
-    std::cout << "Pick a number between 1 and 100\n";
-    std::cin >> i;
-    while (i != n) {
-        if (i > n) {
+    int unknown_number = random_number();
+    int picked_number;
+    int round = 1;
+
+    std::cout << "Welcome to Guess the number !\n Pick a number between 1 and 100\n";
+    std::cin >> picked_number;
+
+    while (picked_number != unknown_number) {
+        if (picked_number > unknown_number) {
             std::cout << "Smaller\n";
         }
         else {
             std::cout << "Greater\n";
         }
         std::cout << "Try again\n";
-        std::cin >> i;
-        index++;
+        std::cin >> picked_number;
+        round++;
     }
-    std::cout << "Congrats, you won in " << index << " rounds !\n";
+    std::cout << "Congrats, you won in " << round << " rounds !\n";
 }

@@ -2,5 +2,5 @@
 #include <random>
 #include <string>
 
-int  pick_random_number();
-void guess_the_number();
+int  random_number();
+void play_guess_the_number();

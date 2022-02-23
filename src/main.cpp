@@ -7,5 +7,5 @@ int main()
     // std::cout << "Hello World\n";
 
     // -------------------------------- GUESS THE NUMBER --------------------------------- //
-    guess_the_number();
+    play_guess_the_number();
 }
