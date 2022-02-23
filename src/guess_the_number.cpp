@@ -19,7 +19,7 @@ void guess_the_number()
         if (i > n) {
             std::cout << "Smaller\n";
         }
-        else if (i < n) {
+        else {
             std::cout << "Greater\n";
         }
         std::cout << "Try again\n";
