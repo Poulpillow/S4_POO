@@ -13,18 +13,18 @@ void guess_the_number()
     int n = pick_random_number();
     int i;
     int index = 1;
-    std::cout << "Pick a number between 1 and 100" << std::endl;
+    std::cout << "Pick a number between 1 and 100\n";
     std::cin >> i;
     while (i != n) {
         if (i > n) {
-            std::cout << "Smaller" << std::endl;
+            std::cout << "Smaller\n";
         }
         else if (i < n) {
-            std::cout << "Greater" << std::endl;
+            std::cout << "Greater\n";
         }
-        std::cout << "Try again" << std::endl;
+        std::cout << "Try again\n";
         std::cin >> i;
         index++;
     }
-    std::cout << "Congrats, you won in " << index << " rounds !" << std::endl;
+    std::cout << "Congrats, you won in " << index << " rounds !\n";
 }
