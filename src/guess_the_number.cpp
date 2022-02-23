@@ -10,9 +10,9 @@ int random_number()
 
 void play_guess_the_number()
 {
-    int unknown_number = random_number();
-    int picked_number;
-    int round = 1;
+    const int unknown_number = random_number();
+    int       picked_number;
+    int       round = 1;
 
     std::cout << "Welcome to Guess the number !\n Pick a number between 1 and 100\n";
     std::cin >> picked_number;
