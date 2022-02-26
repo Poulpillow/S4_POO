@@ -1,16 +1,9 @@
 #include "guess_the_number.hpp"
-
-int random_number()
-{
-    static std::random_device          rd;
-    static std::mt19937                mt(rd());
-    std::uniform_int_distribution<int> dist(1, 100);
-    return dist(mt);
-}
+#include "random.hpp"
 
 void play_guess_the_number()
 {
-    const int unknown_number = random_number();
+    const int unknown_number = random_number(1, 100);
     int       picked_number;
     int       round = 1;
 
