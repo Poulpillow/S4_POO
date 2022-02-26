@@ -1,5 +1,6 @@
 #include <iostream>
 #include "guess_the_number.hpp"
+#include "hangman.hpp"
 
 int main()
 {
