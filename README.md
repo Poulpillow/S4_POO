@@ -61,7 +61,7 @@
 - 🟢 Introduction
 - 🟢 Setting up a project
 - 🟡 Guess the number
-- 🔴 Hangman
+- 🟠 Hangman
 - 🔴 Adding a menu
 - 🔴 Noughts and Crosses
 - 🔴 Connect 4
