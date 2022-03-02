@@ -4,3 +4,4 @@
 #include "random.hpp"
 
 std::string unknown_word();
+void        play_hangman();
