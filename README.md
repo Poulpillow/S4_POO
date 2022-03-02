@@ -47,11 +47,11 @@
 - 📗 Make it work, then make it good
 - 📗 Prefer free functions
 - 📗 Design cohesive classes
-- 📕 Use structs to group data
-- 📕 Write small functions
-- 📕 DRY: Don't repeat yourself
-- 📕 Enums
-- 📕 Split problems in small pieces
+- 📗 Use structs to group data
+- 📗 Write small functions
+- 📗 DRY: Don't repeat yourself
+- 📗 Enums
+- 📗 Split problems in small pieces
 - 📕 Composition over Inheritance
 
 ---
