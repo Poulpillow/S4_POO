@@ -1,4 +1,6 @@
 #include "guess_the_number.hpp"
+#include <iostream>
+#include "random.hpp"
 
 void play_guess_the_number()
 {

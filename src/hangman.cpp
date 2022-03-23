@@ -1,4 +1,7 @@
 #include "hangman.hpp"
+#include <string>
+#include <vector>
+#include "random.hpp"
 
 std::string random_word()
 {

@@ -1,4 +1,5 @@
 #include "random.hpp"
+#include <random>
 
 // A template here will be nice
 int random_number(int min, int max)
