@@ -32,8 +32,7 @@ q --> Quit the menu
             isQuitting = true;
         }
 
-        // ------------------------------------- ERROR --------------------------------------- //
-        // NE PRENDS PAS EN COMPTE LES OBJETS AUTRES QUE INT ET RENVOIE DANS CE CAS QUIT      
+        // ------------------------------------- ERROR --------------------------------------- //     
         else {
             std::cout << "This is not a valid command. Try again.\n";
         }
