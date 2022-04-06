@@ -61,8 +61,9 @@
 - 🟢 Introduction
 - 🟢 Setting up a project
 - 🟡 Guess the number
+    - Improvement to do : anticipate player's errors (put anything that is not an integer)
 - 🟠 Hangman
-- 🔴 Adding a menu
+- 🟡 Adding a menu
 - 🔴 Noughts and Crosses
 - 🔴 Connect 4
 - 🔴 Adding tests
