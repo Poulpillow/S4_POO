@@ -1,15 +1,6 @@
-#include <iostream>
-#include "guess_the_number.hpp"
-#include "hangman.hpp"
+#include "menu.hpp"
 
 int main()
 {
-    // -------------------------------- INTRODUCTION TEST -------------------------------- //
-    // std::cout << "Hello World\n";
-
-    // -------------------------------- GUESS THE NUMBER --------------------------------- //
-    // play_guess_the_number();
-
-    // ------------------------------------ HANGMAN -------------------------------------- //
-    // play_hangman();
+    choose_game();
 }
