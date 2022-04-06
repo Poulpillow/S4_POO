@@ -22,5 +22,5 @@ void play_guess_the_number()
         std::cin >> picked_number;
         round++;
     }
-    std::cout << "Congrats, you won in " << round << " rounds !\n";
+    std::cout << "Congrats, you won in " << round << " rounds !\n\n";
 }
