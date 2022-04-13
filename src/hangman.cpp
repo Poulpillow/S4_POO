@@ -6,11 +6,11 @@
 std::string random_word()
 {
     std::vector<std::string> word_list = {
-        "imar",
-        "imap",
-        "imal",
-        "imao",
-        "imac"};
+        "imac",
+        "animaux",
+        "pays",
+        "bonsoir",
+        "cochon"};
     int         index = random_number(0, static_cast<int>(word_list.size()) - 1);
     std::string word  = word_list[index];
     return word;
@@ -59,7 +59,11 @@ void play_hangman()
         position = unknown_word.find(picked_letter);
 
         if (position != -1) {
-            hidden_word[position] = picked_letter;
+            for (size_t i = 0; i < lengh_unknown_word; i++) {
+                if (unknown_word.at(i) == picked_letter) {
+                    hidden_word[i] = picked_letter;
+                }
+            }
 
             // A AMELIORER
             hidden_word_founded = true;
@@ -72,7 +76,6 @@ void play_hangman()
         else {
             number_lives--;
         }
-        position = -2;
     }
 
     // Message de fin (gagné ou perdu)
