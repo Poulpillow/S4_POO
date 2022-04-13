@@ -5,7 +5,7 @@
 
 void choose_game()
 {
-    char  index      = '\0';
+    char index      = '\0';
     bool isQuitting = false;
 
     while (!isQuitting) {
@@ -22,9 +22,9 @@ q --> Quit the menu
         }
 
         // ------------------------------------ HANGMAN -------------------------------------- //
-        // else if (index == '2') {
-        //     play_hangman();
-        // }
+        else if (index == '2') {
+            play_hangman();
+        }
 
         // ------------------------------------- QUIT ---------------------------------------- //
         else if (index == 'q') {
@@ -32,7 +32,7 @@ q --> Quit the menu
             isQuitting = true;
         }
 
-        // ------------------------------------- ERROR --------------------------------------- //     
+        // ------------------------------------- ERROR --------------------------------------- //
         else {
             std::cout << "This is not a valid command. Try again.\n";
         }
