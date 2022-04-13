@@ -62,7 +62,8 @@
 - 🟢 Setting up a project
 - 🟡 Guess the number
     - Improvement to do : anticipate player's errors (put anything that is not an integer)
-- 🟠 Hangman
+- 🟡 Hangman
+    - Warning : it works only if there are no duplicated letter in the word !
 - 🟡 Adding a menu
 - 🔴 Noughts and Crosses
 - 🔴 Connect 4
