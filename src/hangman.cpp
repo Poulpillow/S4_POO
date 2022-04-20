@@ -5,14 +5,14 @@
 
 std::string random_word()
 {
-    std::vector<std::string> word_list = {
+    const std::vector<std::string> word_list = {
         "imac",
         "animaux",
         "pays",
         "bonsoir",
         "cochon"};
-    int         index = random_number(0, static_cast<int>(word_list.size()) - 1);
-    std::string word  = word_list[index];
+    const int         index = random_number(0, static_cast<int>(word_list.size()) - 1);
+    const std::string word  = word_list[index];
     return word;
 }
 
@@ -23,8 +23,8 @@ void play_hangman()
 
     //  Créer une liste de mots + Choisir un mot dans cette liste
 
-    std::string  unknown_word       = random_word();
-    const size_t lengh_unknown_word = unknown_word.size();
+    const std::string unknown_word       = random_word();
+    const size_t      lengh_unknown_word = unknown_word.size();
 
     // Créer le mot caché (avec le bon nombre de tirets)
     // Créer un tableau de la longueur du mot inconnu
