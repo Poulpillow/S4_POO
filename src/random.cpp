@@ -2,7 +2,7 @@
 #include <random>
 
 // A template here will be nice
-int random_number(int min, int max)
+int random_number(const int& min, const int& max)
 {
     static std::random_device          rd;
     static std::mt19937                mt(rd());
