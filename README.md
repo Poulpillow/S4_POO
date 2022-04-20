@@ -54,6 +54,48 @@
 - 📗 Split problems in small pieces
 - 📕 Composition over Inheritance
 
+### Level 3
+
+- 📕 std::vector
+- 📕 Minimize dependencies
+- 📕 Strong Types
+- 📕 Use libraries
+- 📕 Range-based for loop
+- 📕 Testing
+- 📕 Lambda functions
+- 📕 Master your IDE
+- 📕 std::optional
+- 📕 Single Source of Truth
+- 📕 Code reviews
+- 📕 const
+- 📕 Documentation
+- 📕 Don't overfocus on performance
+- 📕 Git submodules
+- 📕 STL algorithms
+- 📕 assert
+- 📕 auto
+- 📕 Debug vs Release
+- 📕 Immediately Invoked Function
+- 📕 Markdown
+- 📕 Smart Pointers
+- 📕 std::function
+- 📕 Dependency Injection
+- 📕 Error Handling
+- 📕 Git Pull Requests
+- 📕 Advanced Git features
+- 📕 CMake
+- 📕 Functional programming
+- 📕 Move semantics
+- 📕 The Rule of 5
+- 📕 State and Strategy
+- 📕 std::variant
+- 📕 Cache and Branches
+- 📕 Multithreading
+- 📕 Polymorphism
+- 📕 Space out your code
+
+
+
 ---
 
 ## **Asignments**
