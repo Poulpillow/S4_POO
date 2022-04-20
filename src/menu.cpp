@@ -2,6 +2,7 @@
 #include <iostream>
 #include "guess_the_number.hpp"
 #include "hangman.hpp"
+#include "noughts_and_crosses.hpp"
 
 void choose_game()
 {
@@ -13,6 +14,7 @@ void choose_game()
 Welcome to the menu ! Choose a game :
 1 --> Guess the number
 2 --> Hangman
+3 --> Noughts and Crosses
 q --> Quit the menu
 )";
         std::cin >> index;
@@ -24,6 +26,11 @@ q --> Quit the menu
         // ------------------------------------ HANGMAN -------------------------------------- //
         else if (index == '2') {
             play_hangman();
+        }
+
+        // ------------------------------ NOUGHTS AND CROSSES -------------------------------- //
+        else if (index == '3') {
+            play_noughts_and_crosses();
         }
 
         // ------------------------------------- QUIT ---------------------------------------- //
