@@ -4,7 +4,7 @@
 
 void play_guess_the_number()
 {
-    const int unknown_number = random_number(1, 100);
+    const int unknown_number = random_object(1, 100);
     int       round          = 1;
 
     std::cout << "Welcome to Guess the number !\nPick a number between 1 and 100\n";

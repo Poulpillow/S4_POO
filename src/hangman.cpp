@@ -11,7 +11,7 @@ std::string random_word()
         "pays",
         "bonsoir",
         "cochon"};
-    const int         index = random_number(0, static_cast<int>(word_list.size()) - 1);
+    const int         index = random_object(0, static_cast<int>(word_list.size()) - 1);
     const std::string word  = word_list[index];
     return word;
 }
@@ -50,15 +50,14 @@ void play_hangman()
     char picked_letter       = ' ';
 
     while (number_lives != 0 && !hidden_word_founded) {
-        int         position = -2;
         std::string show_hidden_word(hidden_word.begin(), hidden_word.end());
         std::cout << "Here is the current hidden word :\n"
                   << show_hidden_word << "\nYou have " << number_lives << " lives\nChoose a letter\n";
         std::cin >> picked_letter;
 
-        position = unknown_word.find(picked_letter);
+        size_t position = unknown_word.find(picked_letter);
 
-        if (position != -1) {
+        if (position != std::string::npos) {
             for (size_t i = 0; i < lengh_unknown_word; i++) {
                 if (unknown_word.at(i) == picked_letter) {
                     hidden_word[i] = picked_letter;
