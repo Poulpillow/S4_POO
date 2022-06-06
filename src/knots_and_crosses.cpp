@@ -2,12 +2,7 @@
 
 bool is_in_cell(Case cell, glm::vec2 mouse_position)
 {
-    if (mouse_position[0] >= cell.position[0] - (cell.size) && mouse_position[0] <= (cell.position[0] + cell.size) && mouse_position[1] >= cell.position[1] - (cell.size) && mouse_position[1] <= (cell.position[1] + cell.size)) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    return mouse_position[0] >= cell.position[0] - (cell.size) && mouse_position[0] <= (cell.position[0] + cell.size) && mouse_position[1] >= cell.position[1] - (cell.size) && mouse_position[1] <= (cell.position[1] + cell.size);
 }
 
 void draw_icon(p6::Context& context, int player)
