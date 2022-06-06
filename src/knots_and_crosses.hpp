@@ -5,6 +5,7 @@
 struct Case {
     glm::vec2 position;
     float     size;
+    bool      is_cell_clicked = false;
 };
 
 struct Player {
