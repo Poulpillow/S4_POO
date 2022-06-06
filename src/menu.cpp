@@ -19,7 +19,7 @@ void choose_game()
 
     1 --> Guess the number
     2 --> Hangman
-    3 --> Knots and Crosses
+    3 --> Knots and Crosses (UNFINISHED)
     q --> Quit the menu
 )";
         std::cin >> index;
