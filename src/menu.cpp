@@ -2,7 +2,7 @@
 #include <iostream>
 #include "guess_the_number.hpp"
 #include "hangman.hpp"
-#include "noughts_and_crosses.hpp"
+#include "knots_and_crosses.hpp"
 
 void choose_game()
 {
@@ -28,9 +28,9 @@ q --> Quit the menu
             play_hangman();
         }
 
-        // ------------------------------ NOUGHTS AND CROSSES -------------------------------- //
+        // ------------------------------ KNOTS AND CROSSES -------------------------------- //
         else if (index == '3') {
-            play_noughts_and_crosses();
+            play_knots_and_crosses();
         }
 
         // ------------------------------------- QUIT ---------------------------------------- //
