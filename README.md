@@ -52,11 +52,11 @@
 - 📗 DRY: Don't repeat yourself
 - 📗 Enums
 - 📗 Split problems in small pieces
-- 📕 Composition over Inheritance
+- 📗 Composition over Inheritance
 
 ### Level 3
 
-- 📕 std::vector
+- 📗 std::vector
 - 📕 Minimize dependencies
 - 📕 Strong Types
 - 📕 Use libraries
@@ -105,8 +105,9 @@
 - 🟡 Guess the number
     - Improvement to do : anticipate player's errors (put anything that is not an integer)
 - 🟡 Hangman
-- 🟡 Adding a menu
-- 🔴 Noughts and Crosses
+    - Improvement to do : put in different functions the code
+- 🟢 Adding a menu
+- 🟠 Noughts and Crosses
 - 🔴 Connect 4
 - 🔴 Adding tests
 - 🔴 An AI for Hangman
