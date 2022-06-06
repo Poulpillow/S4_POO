@@ -28,6 +28,7 @@ void draw_icon(p6::Context& context, const Player& player, const Case& cell)
 void play_knots_and_crosses()
 {
     // Initialization
+    auto ctx = p6::Context{{1280, 720, "Knots and Crosses"}};
     ctx.background({0.2f, 0.2f, 0.2f});
     ctx.use_stroke = false;
     Player player;
