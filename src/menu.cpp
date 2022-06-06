@@ -11,11 +11,16 @@ void choose_game()
 
     while (!isQuitting) {
         std::cout << R"(
-Welcome to the menu ! Choose a game :
-1 --> Guess the number
-2 --> Hangman
-3 --> Noughts and Crosses
-q --> Quit the menu
+/----------------------------------------------------/
+/---------------- POULPILLOW'S GAMES ----------------/
+/----------------------------------------------------/
+
+        Welcome to the menu ! Choose a game :
+
+    1 --> Guess the number
+    2 --> Hangman
+    3 --> Knots and Crosses
+    q --> Quit the menu
 )";
         std::cin >> index;
         // -------------------------------- GUESS THE NUMBER --------------------------------- //
