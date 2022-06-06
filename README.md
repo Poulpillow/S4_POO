@@ -57,17 +57,17 @@
 ### Level 3
 
 - 📗 std::vector
-- 📕 Minimize dependencies
-- 📕 Strong Types
-- 📕 Use libraries
-- 📕 Range-based for loop
-- 📕 Testing
-- 📕 Lambda functions
-- 📕 Master your IDE
-- 📕 std::optional
-- 📕 Single Source of Truth
-- 📕 Code reviews
-- 📕 const
+- 📗 Minimize dependencies
+- 📗 Strong Types
+- 📗 Use libraries
+- 📗 Range-based for loop
+- 📗 Testing
+- 📗 Lambda functions
+- 📗 Master your IDE
+- 📗 std::optional
+- 📗 Single Source of Truth
+- 📗 Code reviews
+- 📗 const
 - 📕 Documentation
 - 📕 Don't overfocus on performance
 - 📕 Git submodules
