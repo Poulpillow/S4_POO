@@ -55,8 +55,8 @@ void play_knots_and_crosses()
             // Detection of the mouse in the cells
             if (is_in_cell(cell, ctx.mouse())) {
                 ctx.fill = {0.5f, 0.5f, 0.5f};
-                // Reflexion on the next step of the game : fill a cell with a knot or a cross
-                // Problem : it works for some cell but not every cells
+                //---- Reflexion on the next step of the game : fill a cell with a knot or a cross ----//
+                //---- Problem : it works for some cell but not every cells ---------------------------//
                 // ctx.mouse_pressed = [&](p6::MouseButton) {
                 //     cell.is_cell_clicked = true;
                 // };
