@@ -11,15 +11,15 @@ void draw_icon(p6::Context& context, const Player& player, const Case& cell)
 {
     if (player.number == 1) {
         const auto image = p6::load_image("src/assets/img/cross.png");
-        // context.image(image, p6::Center{cell.position},
-        //               p6::RadiusY{0.2f});
+        context.image(image, p6::Center{cell.position},
+                      p6::RadiusY{0.2f});
         context.image(image, p6::Center{},
                       p6::RadiusY{0.2f});
     }
     else if (player.number == 2) {
         const auto image = p6::load_image("src/assets/img/nought.png");
-        // context.image(image, p6::Center{cell.position},
-        //               p6::RadiusY{0.2f});
+        context.image(image, p6::Center{cell.position},
+                      p6::RadiusY{0.2f});
         context.image(image, p6::Center{},
                       p6::RadiusY{0.2f});
     }
