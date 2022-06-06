@@ -1,11 +1,12 @@
 #include "knots_and_crosses.hpp"
 
+// Detect if the mouse is in the cell
 bool is_in_cell(Case cell, glm::vec2 mouse_position)
 {
     return mouse_position[0] >= cell.position[0] - (cell.size) && mouse_position[0] <= (cell.position[0] + cell.size) && mouse_position[1] >= cell.position[1] - (cell.size) && mouse_position[1] <= (cell.position[1] + cell.size);
 }
 
-void draw_icon(p6::Context& context, int player)
+// Draw knot or cross depending on the number of the player
 {
     if (player == 1) {
         const auto image = p6::load_image("src/assets/img/cross.png");
@@ -25,10 +26,11 @@ void draw_icon(p6::Context& context, int player)
 
 void play_knots_and_crosses()
 {
-    auto ctx = p6::Context{{1280, 720, "Noughts and Crosses"}};
+    // Initialization
     ctx.background({0.2f, 0.2f, 0.2f});
     ctx.use_stroke = false;
 
+    // Creation of each cells
     std::vector<Case> cells;
     for (float i = -0.65f; i < 0.7f; i += 0.65f) {
         for (float j = -0.65f; j < 0.7f; j += 0.65f) {
@@ -38,12 +40,13 @@ void play_knots_and_crosses()
         }
     }
 
+    // Draw of each cells
     ctx.fill = {0.5, 0.5, 0.5};
     for (const auto& cell : cells) {
         ctx.square(p6::Center{cell.position}, p6::Radius{cell.size});
     }
 
-    // ctx.update = [&]() {
+    // Loop
     //     ctx.background({0.5f, 0.3f, 0.8f});
     //     ctx.square(p6::Center{ctx.mouse()},
     //                p6::Radius{0.3f});
