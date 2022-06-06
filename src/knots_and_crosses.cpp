@@ -47,13 +47,7 @@ void play_knots_and_crosses()
     }
 
     // Loop
-    //     ctx.background({0.5f, 0.3f, 0.8f});
-    //     ctx.square(p6::Center{ctx.mouse()},
-    //                p6::Radius{0.3f});
-    // };
-
     int player = 1;
-
     ctx.update = [&]() {
         for (const auto& cell : cells) {
             if (is_in_cell(cell, ctx.mouse())) {
@@ -69,9 +63,5 @@ void play_knots_and_crosses()
     ctx.mouse_pressed = [&](p6::MouseButton) {
         draw_icon(ctx, player);
     };
-    // ctx.mouse_pressed
-
-    // ctx.mouse_pressed = [&](p6::MouseMove mouse_pressed) {};
-
     ctx.start();
 }
