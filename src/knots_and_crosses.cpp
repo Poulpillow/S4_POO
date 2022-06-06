@@ -7,15 +7,16 @@ bool is_in_cell(Case cell, glm::vec2 mouse_position)
 }
 
 // Draw knot or cross depending on the number of the player
+void draw_icon(p6::Context& context, const Player& player, const Case& cell)
 {
-    if (player == 1) {
+    if (player.number == 1) {
         const auto image = p6::load_image("src/assets/img/cross.png");
         // context.image(image, p6::Center{cell.position},
         //               p6::RadiusY{0.2f});
         context.image(image, p6::Center{},
                       p6::RadiusY{0.2f});
     }
-    else if (player == 2) {
+    else if (player.number == 2) {
         const auto image = p6::load_image("src/assets/img/nought.png");
         // context.image(image, p6::Center{cell.position},
         //               p6::RadiusY{0.2f});
@@ -29,6 +30,7 @@ void play_knots_and_crosses()
     // Initialization
     ctx.background({0.2f, 0.2f, 0.2f});
     ctx.use_stroke = false;
+    Player player;
 
     // Creation of each cells
     std::vector<Case> cells;
@@ -47,7 +49,6 @@ void play_knots_and_crosses()
     }
 
     // Loop
-    int player = 1;
     ctx.update = [&]() {
         for (const auto& cell : cells) {
             if (is_in_cell(cell, ctx.mouse())) {
